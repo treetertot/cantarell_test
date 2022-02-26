@@ -24,8 +24,8 @@ fn main() {
 
         if let Some(h) = cantarell.outline_glyph(cap_h) {
             h.draw(|x, y, c| {
-                let byte = (c * 255.) as u8;
-                image.put_pixel(x, y, Luma([byte]));
+                let byte = (1. - c) * 255.;
+                image.put_pixel(x, y, Luma([byte as u8]));
             });
         }
         let name = format!("{}.png", c);

@@ -5,8 +5,7 @@ version = 3
 [[package]]
 name = "ab_glyph"
 version = "0.2.14"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d54a65e0d4f66f8536c98cb3ca81ca33b7e2ca43442465507a3a62291ec0d9e4"
+source = "git+https://github.com/alexheretic/ab-glyph.git?branch=always-close-outlines#7dd5be2a809e05faa61ee11c26ca41306ef20520"
 dependencies = [
  "ab_glyph_rasterizer",
  "owned_ttf_parser",
@@ -15,8 +14,7 @@ dependencies = [
 [[package]]
 name = "ab_glyph_rasterizer"
 version = "0.1.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a13739d7177fbd22bb0ed28badfff9f372f8bef46c863db4e1c6248f6b223b6e"
+source = "git+https://github.com/alexheretic/ab-glyph.git?branch=always-close-outlines#7dd5be2a809e05faa61ee11c26ca41306ef20520"
 
 [[package]]
 name = "adler"
